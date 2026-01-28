@@ -9,7 +9,7 @@ This is a sample PHP project for using SQL with PHP.
 ## Output Screenshots
 
 ### Home Page
-![Home Page](assets/output_images/HomePage.png)
+![Home Page](assets/output_images/homePage.png)
 
 ### Patient List Page
 ![Patient List Page](assets/output_images/patientListPage.png)
