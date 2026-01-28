@@ -2,7 +2,7 @@
 <footer class="bg-white text-center py-3 mt-auto border-top shadow-sm">
     <div class="container">
         <p class="mb-0 text-muted">
-            &copy; <?php echo date("Y"); ?> <strong>Capminds Hospital Management System</strong>. All rights reserved.
+            &copy; <?php echo date("Y"); ?> <strong>Capminds Patient Management System</strong>. All rights reserved.
         </p>
     </div>
 </footer>

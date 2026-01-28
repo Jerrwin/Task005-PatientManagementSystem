@@ -5,7 +5,7 @@ require_once 'includes/header.php';
 
 <div class="container mt-5">
     <div class="text-center mb-5">
-        <h1 class="display-4 text-primary">Hospital Management System</h1>
+        <h1 class="display-4 text-primary">Patient Management System</h1>
         <p class="lead text-muted">Select a module to manage records.</p>
     </div>
 
