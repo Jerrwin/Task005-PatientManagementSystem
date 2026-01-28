@@ -9,16 +9,16 @@ This is a sample PHP project for using SQL with PHP.
 ## Output Screenshots
 
 ### Home Page
-![Home Page](output_images/HomePage.png)
+![Home Page](assets/output_images/HomePage.png)
 
 ### Patient List Page
-![Patient List Page](output_images/patientListPage.png)
+![Patient List Page](assets/output_images/patientListPage.png)
 
 ### Add New Patient
-![Add New Patient](output_images/addNewPatient.png)
+![Add New Patient](assets/output_images/addNewPatient.png)
 
 ### Patient Edit Page
-![Patient Edit Page](output_images/editPage.png)
+![Patient Edit Page](assets/output_images/editPage.png)
 
 ### Doctor List Page
-![Doctor List Page](output_images/doctorListPage.png)
+![Doctor List Page](assets/output_images/doctorListPage.png)
