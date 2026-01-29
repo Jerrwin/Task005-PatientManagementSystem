@@ -221,7 +221,7 @@ $result = $conn->query($sql);
                     aria-label="Close"></button>
             </div>
 
-            <form action="create_action.php" method="POST">
+            <form action="create.php" method="POST">
                 <div class="modal-body">
                     <div class="row mb-3">
                         <div class="col-md-6 mb-3 mb-md-0"> <label class="form-label">Patient Name</label>
