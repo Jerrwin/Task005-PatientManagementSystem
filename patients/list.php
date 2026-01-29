@@ -44,7 +44,6 @@ switch ($sort_option) {
         break;
 }
 
-// --- 4. QUERY EXECUTION ---
 $total_sql = "SELECT COUNT(*) FROM patient WHERE $search_query";
 $total_result = $conn->query($total_sql);
 $total_rows = $total_result->fetch_row()[0];
