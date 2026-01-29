@@ -1,17 +1,13 @@
 <?php
-// patients/list.php
 require_once '../includes/header.php';
 require_once '../config/db_connect.php';
 
-// --- 1. CONFIGURATION & HELPERS ---
 $limit = 5;
 $page = isset($_GET['page']) ? $_GET['page'] : 1;
 $start = ($page - 1) * $limit;
 
-// Fetch Doctors for the Modal Dropdown
 $doctors_result = $conn->query("SELECT doctor_id, doctor_name, specialization FROM doctor");
 
-// --- 2. SEARCH LOGIC ---
 $search = "";
 $search_query = "1=1";
 if (isset($_GET['search']) && !empty($_GET['search'])) {
@@ -19,7 +15,6 @@ if (isset($_GET['search']) && !empty($_GET['search'])) {
     $search_query = "(patient_name LIKE '%$search%' OR diagnosis LIKE '%$search%')";
 }
 
-// --- 3. SORT LOGIC ---
 $sort_option = isset($_GET['sort_option']) ? $_GET['sort_option'] : 'newest';
 
 switch ($sort_option) {

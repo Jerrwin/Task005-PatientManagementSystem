@@ -1,6 +1,5 @@
 <?php
 require_once 'includes/header.php';
-// We don't need db_connect here unless you want to show "Total Counts"
 ?>
 
 <div class="container mt-5">
@@ -19,7 +18,7 @@ require_once 'includes/header.php';
                     </div>
                     <h3 class="card-title">Patients</h3>
                     <p class="card-text text-muted">Add, view, and manage patient records and diagnoses.</p>
-                    <a href="patients/list.php" class="btn btn-outline-primary btn-lg w-100 stretched-link">
+                    <a href="patientPage.php" class="btn btn-outline-primary btn-lg w-100 stretched-link">
                         Manage Patients
                     </a>
                 </div>
@@ -34,7 +33,7 @@ require_once 'includes/header.php';
                     </div>
                     <h3 class="card-title">Doctors</h3>
                     <p class="card-text text-muted">View doctor profiles and their specializations.</p>
-                    <a href="doctors/list.php" class="btn btn-outline-danger btn-lg w-100 stretched-link">
+                    <a href="doctorPage.php" class="btn btn-outline-danger btn-lg w-100 stretched-link">
                         Manage Doctors
                     </a>
                 </div>
